@@ -151,11 +151,7 @@ p {
     padding-top: 60px;
 }
 
-.validators {
-    height: 40px;
-    padding: 4px 8px;
-    border-color: black;
-    border-width: medium;
-    border-style: solid;
-    background-color: white;
+/* Formatting for Validator */
+.Validator {
+    margin-left: 300px;
 }
