@@ -1,157 +1,132 @@
-/* Formatting for Background Image */
-body {
-	background-image: url('Cosmere_BG.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-}
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset="UTF-8">
+		<title> The Cosmere </title>
+        <!-- See CSS for more styling details. -->
+        <link rel="stylesheet" type="text/css" href="Cosmere.css"/>
+    </head>
 
-/* Formatting for Navigation Bar */
-.logo {
-    cursor: pointer;
-    height: 70px;
-    margin-left: 0px;
-}
+    <body>
+        <!-- Side Navigation Bar-->
+        <div class="sidenav">
+            <img class="logo" src="Cosmere_logo2.png" alt="logo"/>
+            <p id = "table"> Table of Contents </p>
+            <a href="#intro">Introduction to the Cosmere</a>
+            <a href="#author">About Brandon Sanderson</a>
+            <a href="#books">The Worlds of the Cosmere</a>
+            <a href="#myth">The Mythology of the Cosmere</a>
+            <a href="#magic">The Magic System</a>
+            <a href="Bibliography.html">Bibiography</a>
+        </div>
 
-.sidenav {
-    height: 100%;
-    width: 200px; 
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgba(0,0,0,0.5);
-    overflow-x: hidden; 
-    padding-top: 20px;
-}
+        <!-- Title -->
+        <header>
+            <h1>THE COSMERE</h1>
+        </header>
+        <article>
+            <!-- 1st Paragraph - Introduction to the Cosmere -->
+            <h2 id="intro">Introduction to the Cosmere</h2>
+            <p>
+                The Cosmere is the universe in which many of Brandon Sanderson&rsquo;s fiction book series take place.
+				All the books take place in their own Shardworlds within the Cosmere universe. Shardworlds are planets that have Shardic presence.
+				There is a total of 10 known shardworlds so far, and their unique magic systems are caused by a <a href="#Myth">Shard of Adonalsium</a>.
+            </p>
 
-.sidenav a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    color: white;
-    display: block;
-    padding-top: 20px; 
-}
+            <!-- 2nd Paragraph - About Brandon Sanderson -->
+			<h2 id="author">About Brandon Sanderson</h2>
+            <div class="seperation">
+				<div class="connection">
+					<p>
+						Brandon Sanderson is the author of the Cosmere and all its related stories. At first, his publisher encouraged him to write stand-alone stories that do not connect.
+						This way, the publisher won&rsquo;t have to deal with books that they do not like. However, this format did not allow Sanderson to compose his huge epic fantasy series,
+						so he made all his indepentent stories into a hidden epic. There is more information about the Cosmere and his works on his <a href="https://www.brandonsanderson.com">official website</a>.
+					</p>
+				</div>
+				<img id="brandon" src="Brandon.jpeg" alt="Brandon Sanderson and the Cosmere"/>
+			</div>
 
-.sidenav a:hover {
-    text-decoration: underline;
-  }
+            <!-- 3rd Paragraph - The Worlds of the Cosmere -->
+            <h2 id="books">The Worlds of the Cosmere</h2>
+            <div class="seperation">
+				<div class="connection">
+                    <p>There are ten known shardworlds so far covered in the stories. The shardworlds include:</p>
+                    <ul>
+                        <li>Ashyn</li>
+                        <li>Scadrial</li>
+                        <li>First of the Sun</li>
+                        <li>Nalthis</li>
+                        <li>Roshar</li>
+                        <li>Sel</li>
+                        <li>Taldain</li>
+                        <li>Threnody</li>
+                        <li>Vax</li>
+                        <li>Yolen</li>
+                    </ul>
+                </div>
+                <img id="radiant" src="Stormlight.jpeg" alt="The Knights Radiant, The Stormlight Archive"/>
+            </div>
+            <div class="seperation">
+				<div class="connection">
+                    <p>The book series which these shardworlds appear in are:</p>
+                    <ul>
+                        <li>The Stormlight Archive</li>
+                        <li>Mistborn</li>
+                        <li>Elantris</li>
+                        <li>Warbreaker</li>
+                        <li>White Sands</li>
+                        <li>Shadows for Silence in the Forests of Hell</li>
+                        <li>Dragonsteel</li>
+                        <li>Sixth of the Dusk</li>
+                    </ul>
+                </div>
+                <img id="worlds" src="Cosmere_BG.jpg" alt="The Worlds of the Cosmere"/>
+            </div>
 
-#table {
-    color: white;
-    align-self: center;
-    margin-top: 30px;
-    margin-left: 15px;
-    font-size: 23px;
-	font-weight: bold;
-	border-style: solid;
-	border: 4px;
-}
+            <!-- 4th Paragraph - The Mythology of the Cosmere -->
+            <h2 id="myth">The Mythology of the Cosmere</h2>
+            <div class="seperation">
+				<div class="connection">
+                    <p>
+                        The mythology of the Cosmere is based on one central god named Adonalsium. After the creation of the Cosmere,
+                        Adonalsium was shattered into 16 shards, each surrounding an intent of creation. The shards traveled and scattered around the 10 shardworlds,
+                        imbuing each world with its magic, therefore creating the unique magic systems that exist in the different series.
+                    </p>
+                </div>
+                <img id="shatter" src="TheShattering.jpg" alt="The 16 shards of Adonalsium"/>
+            </div>
 
-/* Formatting for Content */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    margin-left: 150px;
-    color: white;
-    font-size: 40px;
-    margin-top: 20px;
-}
+            <!-- 5th Paragraph - The Magic System -->
+			<h2 id="magic">The Magic System</h2>
+            <div class="seperation">
+				<div class="connection">
+					<p>
+						Each shardworld in the Cosmere has its own unique magic system influenced by its related shard. However, 
+						all the magic that exists in the Cosmere are all centered around magic energy known as Investiture. Everything contained a certain amount of investiture,
+						and all the magic that exists is based on different methods of using the energy. The amount of Investiture that is imbued in a world depending on the number of shards that resides there.
+						For example, Roshar from The Stormlight Archive, is under the influence of 3 shards: Odium, Cultivation, and Honor. 
+						As a result, the world is populated by highly concentrated and sentient Investitures called spren.
+					</p>
+				</div>
+				<img id="spren" src="Spren.jpeg" alt="Spren in Roshar"/>
+			</div>
 
-article {
-    margin-left: 300px;
-    margin-right: 50px;
-    padding-right: 50px;
-	color: white;
-    font-size: 25px;
-}
+            <!-- 5th - Conclusion-->
+            <h3 id="end">The End</h3>
+            <p>
+                This is the vast universe of the Cosmere created by Brandon Sanderson. 
+                You have reached the end of this webpage; would you like to go back to the <a href="#Title">top</a>?
+            </p>
+        </article>
 
-#intro, #author, #books, #myth, #magic, #bibliography, #end {
-    font-family: Georgia, serif;
-    font-size: 35px;
-    padding-top: 60px;
-}
-
-a {
-	color: white;
-}
-
-p {
-    text-align: left;
-}
-
-.connection {
-	text-align: left;
-}
-
-.seperation {
-	display: flex;
-	justify-content: center;
-}
-
-/* Formatting for Images */
-#brandon {
-    margin-left: 50px;
-    margin-top: 20px;
-    float: right;
-    height: 380px;
-    border-style: solid;
-}
-
-#worlds {
-    margin-left: 50px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    float: right;
-    height: 350px;
-    border-style: solid;
-}
-
-#radiant {
-    margin-right: 100px;
-    margin-top: 50px;
-    float: right;
-    height: 300px;
-    border-style: solid;
-}
-
-#shatter {
-    margin-left: 100px;
-    margin-top: 0px;
-    float: right;
-    height: 400px;
-    border-style: solid;
-}
-
-#spren {
-    float: right;
-    height: 450px;
-    border-style: solid;
-    margin-left: 120px;
-    margin-right: 20px;
-    margin-top: 0px;
-}
-
-/* Formatting for Bibliography */
-#conref, #imagref, #coderef {
-    font-family: Georgia, serif;
-    font-size: 35px;
-    padding-top: 60px;
-	margin-right: 30px;
-    text-align: left;
-    margin-right: 130px;
-}
-
-#citation {
-    color: white;
-    font-family: Georgia, serif;
-    font-size: 35px;
-    padding-top: 60px;
-}
-
-/* Formatting for Validator */
-.validator {
-    margin-left: 300px;
-}
+        <!-- Validator Link -->
+        <footer>
+            <a class="validator" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fthomasyhli.github.io%2Fhome%2FTheCosmere.html">
+                <img src="w3c.png" width="65" alt="HTML5 Validator">
+            </a>
+            <a href="http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fthomasyhli.github.io%2Fhome%2FTheCosmere.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+                <img src= "css.png" width="65" alt="CSS Validator">
+            </a>
+        </footer>
+    </body>
+</html>
