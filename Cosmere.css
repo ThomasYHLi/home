@@ -37,7 +37,7 @@ body {
     text-decoration: underline;
   }
 
-#Table {
+#table {
     color: white;
     align-self: center;
     margin-top: 30px;
@@ -68,7 +68,7 @@ article {
     font-size: 25px;
 }
 
-#Intro, #Author, #Books, #Myth, #Magic, #Bibliography, #End {
+#intro, #author, #books, #myth, #magic, #bibliography, #end {
     font-family: Georgia, serif;
     font-size: 35px;
     padding-top: 60px;
@@ -82,17 +82,17 @@ p {
     text-align: left;
 }
 
-.Connection {
+.connection {
 	text-align: left;
 }
 
-.Seperation {
+.seperation {
 	display: flex;
 	justify-content: center;
 }
 
 /* Formatting for Images */
-#Brandon {
+#brandon {
     margin-left: 50px;
     margin-top: 20px;
     float: right;
@@ -100,7 +100,7 @@ p {
     border-style: solid;
 }
 
-#Worlds {
+#worlds {
     margin-left: 50px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -109,7 +109,7 @@ p {
     border-style: solid;
 }
 
-#Radiant {
+#radiant {
     margin-right: 100px;
     margin-top: 50px;
     float: right;
@@ -117,7 +117,7 @@ p {
     border-style: solid;
 }
 
-#Shatter {
+#shatter {
     margin-left: 100px;
     margin-top: 0px;
     float: right;
@@ -125,7 +125,7 @@ p {
     border-style: solid;
 }
 
-#Spren {
+#spren {
     float: right;
     height: 450px;
     border-style: solid;
@@ -135,7 +135,7 @@ p {
 }
 
 /* Formatting for Bibliography */
-#ConRef, #ImagRef, #CodeRef {
+#conref, #imagref, #coderef {
     font-family: Georgia, serif;
     font-size: 35px;
     padding-top: 60px;
@@ -144,7 +144,7 @@ p {
     margin-right: 130px;
 }
 
-#Citation {
+#citation {
     color: white;
     font-family: Georgia, serif;
     font-size: 35px;
@@ -152,6 +152,6 @@ p {
 }
 
 /* Formatting for Validator */
-.Validator {
+.validator {
     margin-left: 300px;
 }
